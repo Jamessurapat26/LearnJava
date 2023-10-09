@@ -28,8 +28,6 @@ public class QueenContest {
         }else{
             sum2 = in.nextFloat();
         }
-
-
         if(sum1<sum2)
             System.out.print("no.2 is tall");
         else if (sum1==sum2)
