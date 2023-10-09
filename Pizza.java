@@ -12,7 +12,5 @@ public class Pizza {
         Priceperinch=price/area;
         System.out.println(Priceperinch);
         System.out.println(Priceperinch);
-        
-
     }
 }
