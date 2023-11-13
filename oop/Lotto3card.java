@@ -4,9 +4,9 @@ public class Lotto3card {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char playAgain = 'y';
-          Card card1 = new Card();
-            Card card2 = new Card();
-            Card card3 = new Card();
+        Card card1 = new Card();
+        Card card2 = new Card();
+        Card card3 = new Card();
 
         do {
             System.out.println("Enter n: ");
@@ -32,7 +32,7 @@ public class Lotto3card {
             }
 
             double percentage = (double) withinRangeCount / n * 100;
-            System.out.printf("Percentage %.2f\n", percentage);
+            System.out.printf("Percentage %.2f \n", percentage);
 
             System.out.print("Do you want to continue [y/n]: ");
             playAgain = scanner.next().charAt(0);

@@ -30,7 +30,7 @@ public class Student {
 
     public String toString(){
         String message;
-        message = id+","++","+gender+","+ "Age" + age + "Gpax" + gpax;
+        message = id+","+","+gender+","+ "Age" + age + " ,Gpax" + gpax;
         return message;
     }
 

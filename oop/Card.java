@@ -7,7 +7,7 @@ public class Card {
     }
 
     public void rand(){
-        number = (int) (Math.random() * 9) + 1;
+        this.number = (int) (Math.random() * 9) + 1;
     }
 
 
